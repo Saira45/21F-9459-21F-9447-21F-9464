@@ -2,6 +2,7 @@ package TransferObject;
 
 public class PoemTO {
 
+
 	
     private String title;
     private int verseNumber;
@@ -9,6 +10,20 @@ public class PoemTO {
   
 
 	
+
+	private int id;
+    private int bookId; 
+   
+    private String misra2;
+
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -27,6 +42,5 @@ public class PoemTO {
 	public void setMisra1(String misra1) {
 		this.misra1 = misra1;
 	}
-	
 
 }
